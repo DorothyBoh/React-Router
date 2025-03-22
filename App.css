@@ -1,0 +1,38 @@
+.container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.menu {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.menu ul li {
+  display: inline;
+}
+
+.menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
+} 
+
+.content {
+  padding: 20px;
+}
